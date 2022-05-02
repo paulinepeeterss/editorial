@@ -35,7 +35,7 @@ img {
 }
 
 header {
-  background: var(--color-blue);
+  background: var(--color-green);
   color: var(--color-white);
 
   position: fixed; /* Fixed position - sit on top of the page */
@@ -110,7 +110,7 @@ ul {
 .tips {
   padding-top: 0.5px;
 
-  background: var(--color-blue);
+  background: var(--color-green);
   color: var(--color-white);
 }
 

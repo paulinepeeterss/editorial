@@ -1,5 +1,5 @@
 :root {
-  --color-white: #c7ddf5;
+  --color-white: #f3f3f3;
   --color-black: #201c2d;
   --color-blue: #2878C8;
   --color-red: #BE3241;
@@ -78,3 +78,7 @@ p{
   margin-left: 20px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 900px) {
+
+} 
