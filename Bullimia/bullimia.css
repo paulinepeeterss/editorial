@@ -48,7 +48,9 @@ nav {
   margin-top: 20px;
 
   text-align: right;
+
   color: var(--color-white);
+  text-decoration: none;
 }
 
 h1 {

@@ -12,17 +12,12 @@
 body {
   /* remove the user agent stylesheet margins */
   margin: 0;
+  padding-top: 200px;
 
   /* correct fonts don't work? */
   font-family: 'effra' 'jubilat';
   font-size: 20px;
   color: var(--color-black);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50vh 50vh;
 }
 
 img {
@@ -64,7 +59,7 @@ h2 {
 }
 
 h3 {
-  margin-left: 40px;
+  margin-left: 20px;
 
   font-size: 32px;
   font-style: italic;
@@ -76,13 +71,13 @@ h4 {
   font-size: 20px;
 }
 
-p{
+p {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 0px;
   margin-top: 0px;
 
-  text-indent: 40px;
+  text-indent: 20px;
   width: 66%;
 
   font-size: 20px;
