@@ -1,5 +1,5 @@
 :root {
-  --color-black: #201c2d;
+  --color-black: #000;
   --color-blue: #2878C8;
   --color-red: #BE3241;
   --color-orange:#FF7828;
@@ -18,10 +18,12 @@ body {
   margin: 0;
   font-family: jubilatregular;
 
-  padding-top: 200px;
-
   font-size: 20px;
   color: var(--color-black);
+}
+
+body .information {
+  padding-top: 200px;
 }
 
 .grid {
@@ -114,7 +116,7 @@ body {
   display: inline-block;
   margin-left: 20px;
 
-  float: left;
+  /* float: left; */
 
   height: 40px;
 }
@@ -148,30 +150,33 @@ a:after {
 
 /* BASIC TEXT */
 h1 {
-  margin-top: 40px;
-  margin-left: 20px;
+  margin: 0;
+  padding: var(--padding);
 
   font-size: 48px;
 }
 
 h2 {
-  margin-left: 20px;
+  margin: 0;
+  padding: var(--padding);
+
   font-size: 32px;
 }
 
 h3 {
-  margin-top: 20px;
-
-  font-size: 32px;
+  margin: 0;
   padding: var(--padding);
+  
+  font-size: 32px;
 
   grid-column: 1 / 5;
-  grid-rows: 3 / 4;
+  grid-row: 3 / 4;
 }
 
 h4 {
-  margin-left: 40px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: var(--padding);
+
   font-size: 20px;
 }
 
@@ -202,8 +207,27 @@ ul {
   line-height: 28px;
 }
 
-@media screen and (max-width: 900px) {
-  :root {
-    --padding: 10px;
-  }
+
+/* large desktops */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+
 }
+
+
+/* medium desktops */
+@media screen and (min-width: 948px) and (max-width: 1439.9px) {
+
+}
+
+/* medium ipad */
+@media screen and (min-width: 711px) and (max-width: 947.9px) {
+
+}
+
+/* medium mobile */
+@media screen and (min-width: 0px) and (max-width: 710.9.9px) {
+
+}
+
+
+
