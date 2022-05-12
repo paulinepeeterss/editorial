@@ -116,7 +116,7 @@ body .information {
   display: inline-block;
   margin-left: 20px;
 
-  /* float: left; */
+  float: left;
 
   height: 40px;
 }
