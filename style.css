@@ -44,6 +44,20 @@ body .information {
   background-color: var(--color-red);
 }
 
+.depression {
+  background: var(--color-red);
+
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.tips-depression{
+  padding-top: 0.5px;
+
+  background: var(--color-red);
+}
+
 /* GAD */
 .blue{
   background-color: var(--color-blue);
@@ -72,14 +86,56 @@ body .information {
   background-color: var(--color-orange);
 }
 
+.selfharm {
+  background: var(--color-orange);
+
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.tips-selfharm{
+  padding-top: 0.5px;
+  
+  background: var(--color-orange);
+}
+
 /* ANOREXIA */
 .blue-green{
   background-color: var(--color-blue-green);
 }
 
+.anorexia {
+  background: var(--color-blue-green);
+
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.tips-anorexia{
+  padding-top: 0.5px;
+
+  background: var(--color-blue-green);
+}
+
 /* PTSD */
 .green{
   background-color: var(--color-green);
+}
+
+.ptsd {
+  background: var(--color-green);
+
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.tips-ptsd{
+  padding-top: 0.5px;
+  
+  background: var(--color-green);
 }
 
 /* BULLIMIA */
