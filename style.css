@@ -22,7 +22,7 @@ body {
   color: var(--color-black);
 }
 
-body .information {
+body .article {
   padding-top: 200px;
 }
 
@@ -193,9 +193,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--color-black);
-
-  color: white;
+  transform: scale(1.5, 1.5);
   text-decoration: none;
 }
 
@@ -258,10 +256,18 @@ ul {
 
   text-indent: 40px;
   width: 66%;
+  list-style-position: inside;
 
   font-size: 20px;
   line-height: 28px;
 }
+
+li {
+  width: 66%;
+}
+
+
+
 
 
 /* large desktops */
