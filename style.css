@@ -252,13 +252,6 @@ h4 {
   font-size: 20px;
 }
 
-h5 {
-  margin: 0;
-  padding: var(--padding);
-
-  font-size: 12px;
-}
-
 p {
   margin: 0px 0px 0px 20px;
 
@@ -289,6 +282,24 @@ ul {
 li {
   width: 66%;
 }
+
+/* FOOTER */
+h5 {
+  margin: 3px;
+
+  text-align: center;
+  width: 100%;
+
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 150px;
+  padding-bottom: 50px;
+
+}
+
+
 
 
 
