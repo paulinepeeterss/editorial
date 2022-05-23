@@ -170,7 +170,7 @@ nav {
 } 
 
 nav a {
-  margin-left: 20px;
+  margin-left: 40px;
   color: var(--color-black);
   text-decoration: none;
   
@@ -447,6 +447,8 @@ h1 {
 
 h2 {
   margin: 0px 0px 0px 20px;
+  padding-top: 40px;
+  padding-bottom: var(--padding);
 
   font-size: 32px;
 }
@@ -461,6 +463,7 @@ h2 {
 h3 {
   margin: 0px 0px 0px 20px;
   padding-top: 20px;
+  padding-bottom: 10px;
   
   font-size: 28px;
 
@@ -511,8 +514,7 @@ p {
   line-height: 28px;
 }
 
-/* medium mobile */
-@media screen and (min-width: 1720px) and (max-width: 1920px) {
+@media screen and (max-width: 500px) {
   p {
     width: 90%;
   }
@@ -531,9 +533,8 @@ p + p {
 }
 
 ul {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0px;
+  margin: 0, 20px, 0, 20px;
+  padding-bottom: 20px;
 
   display: block;
 
@@ -553,9 +554,13 @@ ul {
   }
 }
 
-li {
-  width: 66%;
+
+@media screen and (max-width: 500px) {
+  ul {
+    width: 90%;
+  }
 }
+
 
 /* FOOTER */
 h5 {
@@ -640,48 +645,34 @@ label {
   padding: 20px;
 }
 
-.blanks h2 {
-  margin: 20px;
+.blanks {
+  padding-top: 100px;
+  padding-right: 20%;
+  padding-left: 20%;
+
+  text-align: center;
 }
 
 .blanks-blue {
-  padding: 100px;
-
   background-color: var(--color-blue);
-  text-align: center;
 }
 
 .blanks-red {
-  padding: 100px;
-
   background-color: var(--color-red);
-  text-align: center;
 }
 
 .blanks-orange {
-  padding: 100px;
-
   background-color: var(--color-orange);
-  text-align: center;
 }
 
 .blanks-green {
-  padding: 100px;
-
   background-color: var(--color-green);
-  text-align: center;
 }
 
 .blanks-pink {
-  padding: 100px;
-
   background-color: var(--color-pink);
-  text-align: center;
 }
 
 .blanks-purple {
-  padding: 100px;
-
   background-color: var(--color-purple);
-  text-align: center;
 }
