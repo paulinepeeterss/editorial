@@ -15,15 +15,45 @@
     --padding: 10px;    
   }
 }
+
+/* JUBILAT FONT */
 @font-face {
-  font-family: "jubilatregular";
+  font-family: "jubilat-regualr";
   src: url(fonts/JubilatRegular.woff) format('woff');
+}
+
+/* EFFRA FONT */
+@font-face {
+  font-family: "effra-light";
+  src: url(fonts/Effra_Std_Lt.woff) format('woff');
+}
+
+.text-effra-light {
+  font-family: 'effra-light';
+}
+
+@font-face {
+  font-family: "effra-regular";
+  src: url(fonts/Effra_Std_Rg.woff) format('woff');
+}
+
+.text-effra-regular {
+  font-family: 'effra-regular';
+}
+
+@font-face {
+  font-family: "effra-bold";
+  src: url(fonts/Effra\ Bold.woff) format('woff');
+}
+
+.text-effra-bold {
+  font-family: 'effra-bold';
 }
 
 body {
   margin: 0;
 
-  font-family: 'jubilatregular';
+  font-family: 'jubilat-regular';
 
   font-size: 20px;
   color: var(--color-black);
@@ -33,6 +63,7 @@ body .article {
   padding-bottom: 20px;
 }
 
+/* HOMEPAGE */
 .grid {
   margin-top: 0;
   display: grid;
@@ -67,7 +98,8 @@ body .article {
 
 @media (max-width: 500px) {
   .grid > a {
-    min-height: 60px;  }
+    min-height: 60px; 
+  }
 }
 
 .grid > a > h2,
@@ -99,7 +131,6 @@ body .article {
     min-height: 60px;
   }
 }
-
 
 /* LOGO */
 .logo {
@@ -148,7 +179,6 @@ nav a {
 
 nav a strong {
   display: block;
-  font-weight: 900;
 }
 
 .nav-logo {
@@ -174,7 +204,7 @@ a:after {
 }
 
 /* DEPRESSION */
-.red{
+.red {
   background-color: var(--color-red);
 }
 
@@ -185,10 +215,30 @@ a:after {
   width: 100%;
 }
 
-.tips-depression{
+.tips-depression {
   padding-top: 0.5px;
 
   background: var(--color-red);
+}
+
+.text-jubilat-regular-red {
+  font-family: 'jubilat-regular';
+  color: var(--color-red);
+}
+
+.text-effra-light-red {
+  font-family: 'effra-light';
+  color: var(--color-red);
+}
+
+.text-effra-regular-red {
+  font-family: 'effra-regular';
+  color: var(--color-red);
+}
+
+.text-effra-bold-red {
+  font-family: 'effra-bold';
+  color: var(--color-red);
 }
 
 /* GAD */
@@ -203,20 +253,34 @@ a:after {
   width: 100%;
 }
 
-.tips-gad{
+.tips-gad {
   padding-top: 0.5px;
 
   background: var(--color-blue);
 }
 
-.blue-text {
+.text-jubilat-regular-blue {
+  font-family: 'jubilat-regular';
   color: var(--color-blue);
+}
 
-  font-weight: 900;
+.text-effra-light-blue {
+  font-family: 'effra-light';
+  color: var(--color-blue);
+}
+
+.text-effra-regular-blue {
+  font-family: 'effra-regular';
+  color: var(--color-blue);
+}
+
+.text-effra-bold-blue {
+  font-family: 'effra-bold';
+  color: var(--color-blue);
 }
 
 /* SELF HARM */
-.orange{
+.orange {
   background-color: var(--color-orange);
 }
 
@@ -227,14 +291,34 @@ a:after {
   width: 100%;
 }
 
-.tips-selfharm{
+.tips-selfharm {
   padding-top: 0.5px;
   
   background: var(--color-orange);
 }
 
+.text-jubilat-regular-orange {
+  font-family: 'jubilat-regular';
+  color: var(--color-orange);
+}
+
+.text-effra-light-orange {
+  font-family: 'effra-light';
+  color: var(--color-orange);
+}
+
+.text-effra-regular-orange {
+  font-family: 'effra-regular';
+  color: var(--color-orange);
+}
+
+.text-effra-bold-orange {
+  font-family: 'effra-bold';
+  color: var(--color-orange);
+}
+
 /* ANOREXIA */
-.blue-green{
+.pink {
   background-color: var(--color-pink);
 }
 
@@ -245,14 +329,34 @@ a:after {
   width: 100%;
 }
 
-.tips-anorexia{
+.tips-anorexia {
   padding-top: 0.5px;
 
   background: var(--color-pink);
 }
 
+.text-jubilat-regular-pink {
+  font-family: 'jubilat-regular';
+  color: var(--color-pink);
+}
+
+.text-effra-light-pink {
+  font-family: 'effra-light';
+  color: var(--color-pink);
+}
+
+.text-effra-regular-pink {
+  font-family: 'effra-regular';
+  color: var(--color-pink);
+}
+
+.text-effra-bold-pink {
+  font-family: 'effra-bold';
+  color: var(--color-pink);
+}
+
 /* PTSD */
-.green{
+.green {
   background-color: var(--color-green);
 }
 
@@ -263,14 +367,34 @@ a:after {
   width: 100%;
 }
 
-.tips-ptsd{
+.tips-ptsd {
   padding-top: 0.5px;
   
   background: var(--color-green);
 }
 
+.text-jubilat-regular-green {
+  font-family: 'jubilat-regular';
+  color: var(--color-green);
+}
+
+.text-effra-light-green {
+  font-family: 'effra-light';
+  color: var(--color-green);
+}
+
+.text-effra-regular-green {
+  font-family: 'effra-regular';
+  color: var(--color-green);
+}
+
+.text-effra-bold-green {
+  font-family: 'effra-bold';
+  color: var(--color-green);
+}
+
 /* BULLIMIA */
-.purple{
+.purple {
   background-color: var(--color-purple);
 }
 
@@ -281,10 +405,30 @@ a:after {
   width: 100%;
 }
 
-.tips-bullimia{
+.tips-bullimia {
   padding-top: 0.5px;
   
   background: var(--color-purple);
+}
+
+.text-jubilat-regular-purple {
+  font-family: 'jubilat-regular';
+  color: var(--color-purple);
+}
+
+.text-effra-light-purple {
+  font-family: 'effra-light';
+  color: var(--color-purple);
+}
+
+.text-effra-regular-purple {
+  font-family: 'effra-regular';
+  color: var(--color-purple);
+}
+
+.text-effra-bold-purple {
+  font-family: 'effra-bold';
+  color: var(--color-purple);
 }
 
 /* BASIC TEXT */
@@ -490,12 +634,54 @@ button {
   border: none;
 }
 
-
-
-
-@media (max-width: 500px) {
-  
+/* FILL IN THE BLANKS */
+label {
+  display: block;
+  padding: 20px;
 }
 
+.blanks h2 {
+  margin: 20px;
+}
 
+.blanks-blue {
+  padding: 100px;
 
+  background-color: var(--color-blue);
+  text-align: center;
+}
+
+.blanks-red {
+  padding: 100px;
+
+  background-color: var(--color-red);
+  text-align: center;
+}
+
+.blanks-orange {
+  padding: 100px;
+
+  background-color: var(--color-orange);
+  text-align: center;
+}
+
+.blanks-green {
+  padding: 100px;
+
+  background-color: var(--color-green);
+  text-align: center;
+}
+
+.blanks-pink {
+  padding: 100px;
+
+  background-color: var(--color-pink);
+  text-align: center;
+}
+
+.blanks-purple {
+  padding: 100px;
+
+  background-color: var(--color-purple);
+  text-align: center;
+}
