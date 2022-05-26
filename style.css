@@ -264,6 +264,12 @@ a:after {
   color: var(--color-blue);
 }
 
+.text-jubilat-bold-blue {
+  font-family: 'jubilat-regular';
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
 .text-effra-light-blue {
   font-family: 'effra-light';
   color: var(--color-blue);
