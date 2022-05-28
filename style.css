@@ -223,13 +223,21 @@ a:after {
 
 .text-jubilat-regular-red {
   font-family: 'jubilat-regular';
+
   color: var(--color-red);
+  font-weight: 200;
+
+}
+
+.text-jubilat-bold-red {
+  font-family: 'jubilat-regular';
+
+  color: var(--color-red);  font-weight: 600;
 }
 
 .text-effra-light-red {
   font-family: 'effra-light';
-  color: var(--color-red);
-}
+  color: var(--color-red);}
 
 .text-effra-regular-red {
   font-family: 'effra-regular';
@@ -238,8 +246,7 @@ a:after {
 
 .text-effra-bold-red {
   font-family: 'effra-bold';
-  color: var(--color-red);
-}
+  color: var(--color-red);}
 
 /* GAD */
 .blue{
@@ -261,11 +268,15 @@ a:after {
 
 .text-jubilat-regular-blue {
   font-family: 'jubilat-regular';
+
   color: var(--color-blue);
+  font-weight: 200;
+
 }
 
 .text-jubilat-bold-blue {
   font-family: 'jubilat-regular';
+
   color: var(--color-blue);
   font-weight: 600;
 }
@@ -305,13 +316,21 @@ a:after {
 
 .text-jubilat-regular-orange {
   font-family: 'jubilat-regular';
+
   color: var(--color-orange);
+  font-weight: 200;
+}
+
+.text-jubilat-bold-orange {
+  font-family: 'jubilat-regular';
+
+  color: var(--color-orange);  
+  font-weight: 600;
 }
 
 .text-effra-light-orange {
   font-family: 'effra-light';
-  color: var(--color-orange);
-}
+  color: var(--color-orange);}
 
 .text-effra-regular-orange {
   font-family: 'effra-regular';
@@ -320,8 +339,8 @@ a:after {
 
 .text-effra-bold-orange {
   font-family: 'effra-bold';
-  color: var(--color-orange);
-}
+  color: var(--color-orange);}
+
 
 /* ANOREXIA */
 .pink {
@@ -546,14 +565,11 @@ ul {
   margin: 0, 20px, 0, 20px;
   padding-bottom: 20px;
 
-  display: block;
-
-  text-indent: 40px;
   width: 66%;
-  list-style-position: inside;
-
+  list-style-position: outside;
+  
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 /* large desktops */
@@ -563,7 +579,6 @@ ul {
     line-height: 36px;
   }
 }
-
 
 @media screen and (max-width: 500px) {
   ul {
