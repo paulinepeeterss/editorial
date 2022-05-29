@@ -226,7 +226,6 @@ a:after {
 
   color: var(--color-red);
   font-weight: 200;
-
 }
 
 .text-jubilat-bold-red {
@@ -246,7 +245,8 @@ a:after {
 
 .text-effra-bold-red {
   font-family: 'effra-bold';
-  color: var(--color-red);}
+  color: var(--color-red);
+}
 
 /* GAD */
 .blue{
@@ -339,8 +339,8 @@ a:after {
 
 .text-effra-bold-orange {
   font-family: 'effra-bold';
-  color: var(--color-orange);}
-
+  color: var(--color-orange);
+}
 
 /* ANOREXIA */
 .pink {
@@ -400,13 +400,21 @@ a:after {
 
 .text-jubilat-regular-green {
   font-family: 'jubilat-regular';
+
   color: var(--color-green);
+  font-weight: 200;
+}
+
+.text-jubilat-bold-green {
+  font-family: 'jubilat-regular';
+
+  color: var(--color-green);  
+  font-weight: 600;
 }
 
 .text-effra-light-green {
   font-family: 'effra-light';
-  color: var(--color-green);
-}
+  color: var(--color-green);}
 
 .text-effra-regular-green {
   font-family: 'effra-regular';
@@ -438,13 +446,21 @@ a:after {
 
 .text-jubilat-regular-purple {
   font-family: 'jubilat-regular';
+
   color: var(--color-purple);
+  font-weight: 200;
+}
+
+.text-jubilat-bold-purple {
+  font-family: 'jubilat-regular';
+
+  color: var(--color-purple);  
+  font-weight: 600;
 }
 
 .text-effra-light-purple {
   font-family: 'effra-light';
-  color: var(--color-purple);
-}
+  color: var(--color-purple);}
 
 .text-effra-regular-purple {
   font-family: 'effra-regular';
