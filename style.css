@@ -362,13 +362,21 @@ a:after {
 
 .text-jubilat-regular-pink {
   font-family: 'jubilat-regular';
+
   color: var(--color-pink);
+  font-weight: 200;
+}
+
+.text-jubilat-bold-pink {
+  font-family: 'jubilat-regular';
+
+  color: var(--color-pink);  
+  font-weight: 600;
 }
 
 .text-effra-light-pink {
   font-family: 'effra-light';
-  color: var(--color-pink);
-}
+  color: var(--color-pink);}
 
 .text-effra-regular-pink {
   font-family: 'effra-regular';
